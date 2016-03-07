@@ -1,0 +1,26 @@
+<html>
+<head>
+
+    <script type="text/javascript">
+        <!--
+        function getValue(){
+            var fName = prompt("Enter first name");
+            var lName = prompt("Enter last name");
+            var emailAdress = prompt("Enter email address");
+            var customerNum = prompt ("Enter your customerNum");
+            document.write("You have entered : " + fName, lName, emailAdress, customerNum);
+        }
+        //-->
+    </script>
+
+</head>
+
+<body>
+<p>Welcome to the Person Tester application</p>
+
+<form>
+    <input type="button" value="Create customer or employee? " onclick="getValue();" />
+</form>
+
+</body>
+</html>
